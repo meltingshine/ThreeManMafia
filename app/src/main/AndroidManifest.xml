@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ListenActivity"></activity>
+        <activity android:name=".MafiaCheckActivity" />
+        <activity android:name=".TalkingActivity" />
+        <activity android:name=".UserCheckActivity" />
+        <activity android:name=".TopicCheckActivity" />
+        <activity android:name=".GameStartActivity" />
+        <activity android:name=".SplashActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
